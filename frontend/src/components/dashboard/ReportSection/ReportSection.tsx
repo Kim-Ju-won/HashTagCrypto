@@ -27,9 +27,9 @@ const ReportSection = () => {
           </svg>
         }
       >
-        핵심 키워드인 <strong>'spot BTC ETF'</strong>와 <strong>'BlackRock'</strong>의 언급량이
+        핵심 키워드인 <strong>&apos;spot BTC ETF&apos;</strong>와 <strong>&apos;BlackRock&apos;</strong>의 언급량이
         급증하며 시장의 기대감이 최고조에 달하고 있습니다. 다가오는{" "}
-        <strong>'halving'</strong>과 맞물려{" "}
+        <strong>&apos;halving&apos;</strong>과 맞물려{" "}
         <span className="text-crypto-green font-bold">강력한 상승장(bullish)</span>
         에 대한 논의가 활발합니다.
       </ReportCard>
@@ -53,9 +53,9 @@ const ReportSection = () => {
           </svg>
         }
       >
-        <strong>'SEC'</strong>의 최종 결정 지연 가능성과 함께, 단기 급등에 따른{" "}
-        <strong>'correction'(조정)</strong>을 경고하는 목소리도 커지고 있습니다. 일부
-        채널에서는 의도적인 <strong>'FUD'</strong> 성 정보도 확산되고 있어{" "}
+        <strong>&apos;SEC&apos;</strong>의 최종 결정 지연 가능성과 함께, 단기 급등에 따른{" "}
+        <strong>&apos;correction&apos;(조정)</strong>을 경고하는 목소리도 커지고 있습니다. 일부
+        채널에서는 의도적인 <strong>&apos;FUD&apos;</strong> 성 정보도 확산되고 있어{" "}
         <span className="text-crypto-red font-bold">신중한 접근</span>이 필요합니다.
       </ReportCard>
     </section>

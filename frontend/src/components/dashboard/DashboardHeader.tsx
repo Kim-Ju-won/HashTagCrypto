@@ -1,5 +1,3 @@
-import React from "react";
-
 const DashboardHeader = () => {
   return (
     <section className="flex flex-col md:flex-row md:justify-between md:items-center gap-4 py-8">
