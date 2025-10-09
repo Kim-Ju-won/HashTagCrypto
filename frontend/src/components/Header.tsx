@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header className="bg-crypto-pureWhite border-b border-gray-200 sticky top-0 z-50">
       <div className="mx-auto max-w-7xl px-5 sm:px-10 lg:px-20">
         <div className="flex items-center justify-between py-6 min-h-20">
-          <a
-            href="#"
+          <Link
+            href="/"
             className="flex items-center text-2xl font-bold tracking-tight text-crypto-navy no-underline"
           >
             <svg
@@ -14,6 +16,7 @@ export default function Header() {
               strokeWidth={1.5}
               fill="none"
               stroke="currentColor"
+              aria-hidden="true"
             >
               <path
                 strokeLinecap="round"
@@ -22,7 +25,7 @@ export default function Header() {
               />
             </svg>
             HashTagCrypto
-          </a>
+          </Link>
 
           <nav className="flex items-center gap-4">
             <a
@@ -31,12 +34,12 @@ export default function Header() {
             >
               About
             </a>
-            <a
-              href="#"
+            <Link
+              href="/dashboard"
               className="text-crypto-darkGray font-bold text-base no-underline hover:text-crypto-lavender transition-colors"
             >
               Dashboard
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
