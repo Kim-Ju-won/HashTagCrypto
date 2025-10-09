@@ -1,0 +1,25 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments completely
+.venv/
+venv/
+env/
+
+# Ignore environment and config files
+.env
+.env.local
+.env.*
+fly.toml
+
+# Ignore local dev files
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore git files
+.git/
+.gitignore
